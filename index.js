@@ -883,7 +883,7 @@ app.post('/authenticate', authentication, function(request, response) {
 app.use('/login', constants.limiter);
 app.post('/login', loginCheck, function(request, response) {});
 app.get('/', function(request, response) {
-    response.redirect('https://git.heroku.com/bartermgl.git');
+    response.redirect('https://bartermgl.herokuapp.com/');
 });
 
 app.post('/newitem', authentication, function(request, response) {
