@@ -10,7 +10,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "bcrypt": "^1.0.2",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.17.1",
     "cloudinary": "^1.9.0",
     "compression": "latest",
